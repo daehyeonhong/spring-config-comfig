@@ -1,5 +1,5 @@
 token:
-  expiration_time: 864
+  expiration_time: 86400000
   secret: salt%user_token%salt
 
 gateway:
