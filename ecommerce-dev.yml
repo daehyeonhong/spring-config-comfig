@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shop?serverTimezone=UTC&characterEncoding=UTF-8
+    username: admin
+    password: 1234
+
 token:
   expiration_time: 86400000
   secret: salt%user_token%salt_dev
