@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: '{cipher}ad38a0463f467f413c68d0d70663b6dfc7d2e173f3df2d03ac3af42e6a84c85c7afb638612e200f587f9c301db05bdde'
+    url: '{cipher}d2443d579a0f6c92d1b5784c69eea26923ae41f9325fc2b444efc834f25f5a2099fd12417cbd202c0895e9d836eb6ce08f4809d3117ba9934d722ec9d78424e1782e61e2be1df4996634ed8167308c32f061246dab564729db0d177912cd133e'
+    username: '{cipher}ef14674648e03177fe8ce230c783a4f9883c2a645c069fa92e50daa7931434af'
+    password: '{cipher}baae0fc5764905e30de0f24d52d9a1e134ec54021f2213339bcfd649b66fb0ce'
+
+token:
+  expiration_time: 86400000
+  secret: salt%user_token%salt_dev
+
+gateway:
+  ip: 192.168.0.230
