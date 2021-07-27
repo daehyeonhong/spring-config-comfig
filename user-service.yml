@@ -8,5 +8,5 @@ order_service:
 spring:
   cloud:
     config:
-    allow-override: true
-    override-none: true
+      allow-override: true
+      override-none: true
