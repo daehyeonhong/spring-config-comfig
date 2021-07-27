@@ -1,5 +1,5 @@
 gateway:
-  ip: 172.18.0.4
+  ip: 172.18.0.1
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
